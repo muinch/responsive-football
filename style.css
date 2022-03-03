@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+p,
+a {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 26px;
+  color: #6c6c6c;
+}
+
+h1 {
+  font-size: 4em;
+  color: #ffffff;
+  line-height: 80px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 60px;
+  color: #0a0826;
+  margin: 60px 0 0;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 700;
+  line-height: 40px;
+  color: #18191f;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-button {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+}
+
+/* Header Section - Navigation Menu */
+header {
+  background-color: #2d25a0;
+}
+
+nav,
+main,
+section {
+  width: 1142px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 42px 0;
+  margin: 0 auto;
+}
+
+.nav-items a {
+  padding-right: 36px;
+}
+
+.nav-items a:hover {
+  color: #c4c4c4;
+}
+
+.fa-arrow-right-to-bracket {
+  color: #ffffff;
+  padding-right: 8px;
+}
+
+/* Header Section - Main Banner */
+.banner {
+  padding-bottom: 44px;
+}
+
+.fa-arrow-right {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.banner img {
+  width: 556px;
+  height: 438px;
+}
+
+/* All Players Section */
+.all-players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 15px;
+}
+
+.player-box {
+  padding: 15px;
+  margin: 15px;
+  width: 330px;
+  height: 474px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.all-players img {
+  width: 100%;
+  height: auto;
+}
+
+/* Highlights Section */
+.highlights {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlights-text p {
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+
+.match img {
+  width: 567px;
+  height: 427px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  padding: 20px 7px 0;
+}
+
+.copy {
+  padding-bottom: 60px;
+  margin: 0;
+}
