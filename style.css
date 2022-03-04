@@ -81,6 +81,7 @@ img:hover {
 /* Navigation Menu */
 header {
   background-color: #2d25a0;
+  padding-top: 42px;
 }
 
 ul {
@@ -202,6 +203,10 @@ footer img:hover {
 /* Extra small devices (phones, 767px and down) */
 @media only screen and (max-width: 767px) {
   /* Responsive Navigation Menu */
+  header {
+    padding-top: 0;
+  }
+
   nav {
     width: auto;
     height: auto;
@@ -308,7 +313,7 @@ footer img:hover {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     line-height: 80px;
   }
 
@@ -366,5 +371,9 @@ footer img:hover {
   nav,
   main {
     padding: 30px;
+  }
+
+  h1 {
+    font-size: 3.5em;
   }
 }
