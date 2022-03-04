@@ -17,6 +17,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 42px 30px;
   margin: 0 auto;
 }
 
@@ -81,7 +82,6 @@ img:hover {
 /* Navigation Menu */
 header {
   background-color: #2d25a0;
-  padding-top: 42px;
 }
 
 ul {
@@ -363,17 +363,5 @@ footer img:hover {
 
   footer img {
     width: 400px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1141px) {
-  nav,
-  main {
-    padding: 30px;
-  }
-
-  h1 {
-    font-size: 3.5em;
   }
 }
