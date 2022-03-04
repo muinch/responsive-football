@@ -79,7 +79,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 42px 0;
+  padding: 42px 30px;
   margin: 0 auto;
 }
 
@@ -199,8 +199,8 @@ footer img:hover {
 
 /* Media Query */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767px) {
   /* Responsive Navigation Menu */
   nav {
     width: auto;
@@ -279,12 +279,86 @@ footer img:hover {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Responsive Navigation Menu */
+  nav {
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    padding: 33px 100px 46px 100px;
+    margin: 0;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 1.5em;
+  }
+
+  /* Responsive Main Banner */
+  main {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 4em;
+    line-height: 80px;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+  }
+
+  /* Responsive All Players */
+  .all-players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  /* Responsive Highlights */
+  .highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .highlights-text {
+    padding: 16px;
+  }
+
+  .highlights-text h2 {
+    /* font-size: 1.875em;
+    line-height: 40px; */
+    margin: 0;
+  }
+
+  .hightlights-image img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* Responsive Footer */
+  footer {
+    margin: 0;
+  }
+
+  footer img {
+    width: 400px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
